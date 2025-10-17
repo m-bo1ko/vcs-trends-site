@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VCS Trends — History</title>
+<style>
+body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;padding:0;background:#f7f7f9;color:#111}
+header{background:#0b63a3;color:#fff;padding:1rem}
+nav a{color:#fff;margin-right:1rem;text-decoration:none}
+main{max-width:900px;margin:2rem auto;padding:1rem;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+footer{max-width:900px;margin:1rem auto;text-align:center;color:#666}
+time{display:block;margin-bottom:0.5rem;color:#555}
+li{margin-bottom:0.4rem}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<a href="/vcs-trends-site/">Home</a>
+<a href="/vcs-trends-site/history.html">History</a>
+<a href="/vcs-trends-site/trends.html">Trends</a>
+</nav>
+</header>
+<main>
+<h1>Historical Evolution of VCS</h1>
+<p>Key milestones that shaped version control systems:</p>
+<ul>
+<li><strong>1972 — SCCS</strong>: One of the first systems (Bell Labs), introduced basic change tracking.</li>
+<li><strong>1982 — RCS</strong>: Local per-file versioning using delta storage; automated change tracking for files.</li>
+<li><strong>1986 — CVS</strong>: Client-server collaboration across projects; concurrent editing but non-atomic commits.</li>
+<li><strong>2000 — Subversion (SVN)</strong>: Improved on CVS with atomic commits and better renames; still centralized.</li>
+<li><strong>2005 — Git &amp; Mercurial</strong>: Distributed VCS (DVCS). Git became dominant due to strong branching and performance.</li>
+<li><strong>2008 — GitHub</strong>: Web platform that popularized social coding, PR workflows, and repo hosting at scale.</li>
+</ul>
+<h2>Centralized vs Distributed</h2>
+<p>Centralized VCS (e.g., SVN) use a single server for the canonical history. Distributed VCS (e.g., Git) give each developer a full copy of history, enabling offline work and flexible collaboration.</p>
+<h2>Why the shift mattered</h2>
+<ol>
+<li>Fast local operations (commits, diffs, logs).</li>
+<li>Prolific branching and merging as cheap operations.</li>
+<li>Resilience: every clone is a backup of the repository.</li>
+</ol>
+<p>These changes enabled modern large-scale open-source collaboration (example: Linux kernel) and influenced modern DevOps workflows.</p>
+</main>
+<footer>
+Timeline summary based on the pre-class report.
+</footer>
+</body>
+</html>
